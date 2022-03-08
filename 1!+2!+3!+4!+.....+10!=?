@@ -1,0 +1,13 @@
+int main()
+{
+	int a = 0;
+	int mut = 1;
+	int sum = 0;
+	for (a = 1;a <= 10;a++)
+	{
+		mut = mut * a;//a！=（a-1）！*a
+		sum = mut + sum;
+	}
+	printf("1!+2!+3!+...+10!=%d\n", sum);
+	return 0;
+}
